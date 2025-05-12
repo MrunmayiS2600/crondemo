@@ -38,5 +38,5 @@ jobs:
           CLEVERTAP_USER: ${{ secrets.CLEVERTAP_USER }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-          chmod +x ./s3-to-clevertap.sh
-          ./s3-to-clevertap.sh
+          chmod +x ./s3toCT.sh
+          ./s3toCT.sh
